@@ -20,7 +20,7 @@ public class GetRegeneratedCAFStatus {
 		req.header("username", "intense").header("password", "intense@2020");
 		req.config(RestAssured.config().encoderConfig(EncoderConfig.encoderConfig().encodeContentTypeAs("application/form-data", ContentType.TEXT)));
 		
-		req.formParam("caf_number", "SKYC922024");
+		req.formParam("caf_number", "SKYC922025");
 		Response res=req.request(Method.POST, baseURL);
 		String receivedRes=res.getBody().asPrettyString();
 		System.out.println("Status code is:: "+res.getStatusCode());
