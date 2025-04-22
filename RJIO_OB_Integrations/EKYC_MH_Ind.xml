@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ns0:submitCustomerOrder xmlns:ns0="http://www.jio.ril.com/integration/services/fulfilment/CustomerOrderManagement/">
+   <submitCustomerOrderRequest>
+      <customerOrder>
+	  <listOfOrders>
+           <order> 
+               <customAttribute>
+                  <attributeName>DIGITAL_KYC_CATG</attributeName>
+                  <attributeValue/>
+                  </customAttribute>           
+               <customerOrderType>14</customerOrderType>
+               <customerOrderSubtype>E</customerOrderSubtype>
+               <orderRefNumber>EKYC00120945</orderRefNumber>
+   <orderEntryTimeStamp>2016-08-19T19:22:28</orderEntryTimeStamp>
+                <appointmentDateTime>
+		<startDateTime>2016-08-19T19:22:28</startDateTime>
+		<startDateTime>2016-08-19T19:22:28</startDateTime>
+		</appointmentDateTime>
+                <appointmentDateTime>
+		<endDateTime>2016-08-19T19:22:28</endDateTime>
+		</appointmentDateTime>
+<ns1:circleId xmlns:ns1="http://www.jio.ril.com/information/CanonicalDataModelCustomerOrderManagement/">MH</ns1:circleId>
+               <ProductOffering>
+		<billingType>1</billingType>
+                  <id>1400009</id>
+                  <eWalletReservationReferenceID>45691896</eWalletReservationReferenceID>
+                  <PlanOffering>
+                     <id>1000205</id>
+                  </PlanOffering>
+                 <Product>
+								<id>P10009</id>
+								<activationDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+									<ProductCharacteristic>
+										<name>PROD_CATEGORY</name>
+										<value>01</value>
+									</ProductCharacteristic>
+									<ProductCharacteristic>
+										<name>TRANSFER_NUMBER_TAG</name>
+										<value>8991874040000491872</value>
+									</ProductCharacteristic>
+												<Service xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+										<ServiceSpecification>
+											<id>S10009</id>
+										</ServiceSpecification>
+									</Service>
+								</Product>
+                  <Product>
+                     <starterKitNo>N</starterKitNo>
+                     <id>P10016</id>
+                     <Identifier>
+                        <name>MSISDN</name>
+                        <value>5656120945</value>
+                       </Identifier>
+                        <PortInInfo>
+                                <uniquePortingCode>FR455667</uniquePortingCode>
+                                <upcGeneratedDate>2025-03-05</upcGeneratedDate>
+                                <existingOperatorID>120</existingOperatorID>
+                                <existingSubscriberType>1</existingSubscriberType>
+                            </PortInInfo>
+                        <ComponentPrice>
+                           <id>PR400001</id>
+                        </ComponentPrice>
+                     
+                     <ProductCharacteristic>
+                        <name>PROD_CATEGORY</name>
+                        <value>01</value>
+                     </ProductCharacteristic>
+                                <ProductCharacteristic>
+                        <name>FEATURE_PHONE_IMEI</name>
+                        <value>027002</value>
+                     </ProductCharacteristic>
+                       <ProductCharacteristic>
+                        <name>JIOMONEY_NOTIFICATION</name>
+                        <value>01</value>
+                     </ProductCharacteristic>
+			<ProductCharacteristic>
+                        <name>Tele-Marketing Preference</name>
+                        <value>01</value>
+                     </ProductCharacteristic>
+                     <ProductCharacteristic>
+                        <name>DND_PREFERENCE</name>
+			<value>1#2#3</value>
+                     </ProductCharacteristic>
+                     <Service>
+                        <ServiceSpecification>
+                           <id>S40002</id>
+                        </ServiceSpecification>
+                     </Service>
+                     <Service>
+                        <ServiceSpecification>
+                           <id>S40001</id>
+                        </ServiceSpecification>
+                     </Service>
+                     <Resource>
+                        <id>Testing100022</id>
+                        <boqType>3</boqType>
+                        <Identifier>
+                           <name>ICCID</name>
+                           <value>8991874100000000065</value>
+                        </Identifier>
+                        <name>IMSI</name>                        
+                       <Identifier>
+                        <value>58597</value>
+                     </Identifier>
+                     </Resource>
+                     <CustomerAcquisitionAgreement>
+                        <number>EKYC120945</number>
+                     </CustomerAcquisitionAgreement>
+					 <BusinessInteractionType>
+					  <name>ADD</name>
+					</BusinessInteractionType>
+                  </Product>
+               </ProductOffering>
+               <CustomerPayment>
+                  <paymentMethod>01</paymentMethod>
+               </CustomerPayment>
+               <CAFDetails>
+                  <salesChannel>
+                     <merchantCode>0681000010</merchantCode>
+                  </salesChannel>
+                  <identification>
+                     <id>POA</id>
+			<type>Z00007</type>
+			<number>3142011</number>
+                        <issuingCountry>Hyderabad</issuingCountry>
+<transactionReferenceNumber>andofnd12o32</transactionReferenceNumber>
+<transactionDate>2017-07-19T15:46:20</transactionDate>
+                  </identification>
+                  <identification>
+                     <id>POI</id>
+			<type>Z00007</type>
+			<number>3142011</number>
+                        <issuingCountry>Hyderabad</issuingCountry>
+<transactionReferenceNumber>123456</transactionReferenceNumber>
+<transactionDate>2017-07-10T14:78:60</transactionDate>		
+                  </identification>     
+     <number>9098988768</number>  
+       <referenceName>
+	     <firstName>dinesh</firstName>
+		 <middleName>G</middleName>
+		 <lastName>raj</lastName>
+               </referenceName>
+                 <referenceAddress>
+                    <state>AP</state>
+                        <subLocality>SUBLOCALITY OF REGFERENCE checking</subLocality>
+                        <societyName>societyName</societyName>
+					<district>Visakhapatnam</district>
+                      <city>Kantabamsuguda</city>
+					  <postcode>500020</postcode>
+					  <subUnitNr>H-49</subUnitNr>
+					  <locality>Husain</locality>
+				<streetName>Axis</streetName>	
+				<buildingName>Nagarujan</buildingName>
+                </referenceAddress>
+        <referringContactNumber>
+		      <number>8019105876</number>
+                   </referringContactNumber>
+             <agentDetails>
+<authTransactionReferenceNumber>9848012345</authTransactionReferenceNumber>
+<authTransactionDate>1993-07-02T12:11:10</authTransactionDate>
+             </agentDetails>
+               </CAFDetails>
+               <customer>
+			             <partyId>10120945</partyId>
+                         <segment>
+                           <attributeName>10</attributeName>
+                           <attributeValue>027001</attributeValue>  
+                          </segment>
+                         <emailId>vintense@gmail.com</emailId>
+			<occupation>0001</occupation>
+			<gender>1</gender>
+          <permanentAddress>
+		  <addressType>PER_ADD</addressType>
+                   <subLocality>Ymhagud</subLocality>
+                   <societyName>ram nagar shiva</societyName>
+		  <subUnitNr>Pno-89/778</subUnitNr>
+			<city>Hyderabad</city>
+                         <district>Hyderabad</district>
+			 <postcode>500018</postcode>
+                          <state>TG</state>
+                           <streetName>Pkguda</streetName>         
+			<locality>near rail line</locality>
+			<landmark>DFjuhre</landmark>
+			<country>IN</country>
+		  </permanentAddress>
+
+			<organization>
+<name>
+<firstName/>
+<middleName/>
+<lastName/>
+</name>
+</organization>
+<jobTitle/>
+<department/>
+ 			<PanIdentification>
+                     <lastTaxReturnFiled>2015-06-19</lastTaxReturnFiled>
+                     <reasonForNoPAN>DONTHAVE</reasonForNoPAN>
+                  </PanIdentification>
+		              <name>
+                       <salutation>0001</salutation>
+                           <firstName>Sinh M</firstName>
+                           <middleName>sahini</middleName>
+                           <lastName>viraj</lastName>
+                        </name>
+		<relationshipType>0001</relationshipType>
+                        <associationName>
+                           <firstName>singh</firstName>
+                           <middleName>Runk</middleName>
+                           <lastName>sultan</lastName>
+                        </associationName>
+		<dateOfBirth>1993-11-19</dateOfBirth>
+
+		<nationality>IN</nationality>
+                  <preferredLanguage>EN</preferredLanguage>
+		
+		<preferredCommunicationChannel>PAG</preferredCommunicationChannel>         
+                  <segment>
+                     <attributeName>CUSTOMER_CATEGORY</attributeName>
+                     <attributeValue>0001</attributeValue>
+                  </segment>                 
+                  <mobileNumber>9300000001</mobileNumber>
+                  <alternateNumber>8000000002</alternateNumber>
+			<IndividualIdentification>
+                     <type>Z00005</type>
+                     <number>xxxxxxxx9023</number>
+                  </IndividualIdentification>
+<IndividualIdentification>
+                     <type>Z00090</type>
+                     <number>12345678901kdjak12jdkjaskdjal123l12k3jkljlkjlksdjafsdjflks231231212da0d</number>
+                  </IndividualIdentification>
+ <CustomerCreditProfile>
+		<creditScore/>
+		<creditProfileDate>2018-06-29T19:13:15</creditProfileDate>
+	</CustomerCreditProfile>
+</customer>
+<Address>
+<subUnitNr>FNO-5667</subUnitNr>
+<subLocality>Huge</subLocality>
+<societyName>Dodla N</societyName>
+<state>OR</state>
+<buildingId>D-1</buildingId>
+<city>Bhubaneswar</city>
+<district>Bhubaneswar</district>
+<postcode>750017</postcode>
+<streetName>shiva anad</streetName>
+<landmark>Near VT clz</landmark>
+</Address>
+<SalesChannel xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cus="http://www.jio.ril.com/integration/services/fulfilment/CustomerOrderManagement/" xmlns:cus1="http://www.jio.ril.com/information/CanonicalDataModel/CustomerOrderManagement/" xmlns:ns0="http://www.tmforum.org/xml/tip/model" xmlns:ns1="http://www.tmforum.org/xml/tip/model" xmlns:ns2="http://www.tmforum.org/xml/tip/cbe/bi" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+                  <agentCode/>
+                  <name>40</name>
+               </SalesChannel>
+            </order>
+         </listOfOrders>
+      </customerOrder>
+   </submitCustomerOrderRequest>
+</ns0:submitCustomerOrder>
