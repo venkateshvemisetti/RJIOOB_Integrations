@@ -42,7 +42,7 @@ public class PushReqXML {
 		try {
 			
 			
-			  String CAFNumber="PAPERCAQ20"; String ORNNumber="PAPERCAQ0120"; String
+			  String CAFNumber="PAPERCAQ20"; String ORNNumber="PAPERCAQ0121"; String
 			  partyid="200349120"; String MSISDN="7066656120"; //String EID="343434";
 			 			 			
 			
